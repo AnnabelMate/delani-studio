@@ -13,7 +13,7 @@
     <title>Delani Studio</title>
   </head>
   <body>
-    <div class="container">
+  <div class="container">
       <div class="jumbotron">
           <img src="assets/logo/logo.png" alt="logo" class="mx-auto d-block">
         <h1>WELCOME</h1>
@@ -142,29 +142,44 @@
                 </div> 
             </div> 
         </div>
+
       <div class="form">
         <h3>CONTACT US</h3>
-        <input type="text" id="name" name="name" placeholder="Name" required />
-        <br />
-        <input
-          type="text"
-          id="email"
-          name="email"
-          placeholder="Email"
-          required
-        />
-        <br />
-        <input
-          type="text"
-          id="message"
-          name="message"
-          placeholder="Your message here..."
-          required
-        />
-        <br />
-        <input type="submit" value="Submit" onclick="output()" />
-        <div id="outcome"></div>
+        <div class="row">
+            <div class="col-md-2 form"></div>
+            <input class="col-md-4 form-control name" type="text" id="name" name="name" placeholder="Name..."
+                   required><br><br>
+            <input class="col-md-4 form-control email" type="email" id="email" name="email" placeholder="Email..."
+                   required>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <div class="row input">
+            <div class="col-md-2"></div>
+            <textarea class="form-control col-md-8 text" rows="12" name="message" id="message"
+                      placeholder="Your message here..."></textarea>
+            <div class="col-md-2"></div>
+        </div>
+        <button class="btn btn-success mx-auto d-block submit" id="okButton" type="submit">Submit</button>
+        <br>
       </div>
     </div>
+    <br>
+
+    <div class="social mx-auto text-center">
+        <div class="col-md-2"></div>
+        <img src="images/social_icons/twitter.png">
+        <img src="images/social_icons/dribble.png">
+        <img src="images/social_icons/facebook.png">
+        <img src="images/social_icons/g_plus.png">
+        <img src="images/social_icons/skype.png">
+        <img src="images/social_icons/stumble_upon.png">
+        <img src="images/social_icons/behance.png">
+        <img src="images/social_icons/pinterest.png">
+        <img src="images/social_icons/flickr.png">
+    </div>
+    <br>
+    <footer class="text-center">Delani Studio <br> 2019</footer>
+  </div>
   </body>
 </html>
