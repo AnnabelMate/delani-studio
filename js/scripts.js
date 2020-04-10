@@ -56,7 +56,7 @@ $(function () {
   );
 
   //Form Validation
-  $("form#form").on("submit", function (event) {
+  $("form#form").submit(function (event) {
     event.preventDefault();
     let name = $("input#name").val();
     let email = $("input#email").val();
@@ -71,5 +71,10 @@ $(function () {
     } else {
       alert("Please provide your correct name and email!");
     }
+  });
+  $("form#form").submit(function (event) {
+    $("form").each(function () {
+      this.reset();
+    });
   });
 });
