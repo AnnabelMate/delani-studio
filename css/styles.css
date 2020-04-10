@@ -34,6 +34,12 @@ body {
   height: 280px;
 }
 
+.services h2 {
+  position: relative;
+  top: 30px;
+  margin-bottom: 20px;
+}
+
 .show0,
 .show1,
 .show2 {
