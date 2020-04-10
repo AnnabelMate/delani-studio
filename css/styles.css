@@ -5,8 +5,6 @@ html {
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -21,6 +19,14 @@ body {
   height: 97vh;
   font-family: "Comfortaa", cursive;
   margin-bottom: 0;
+}
+
+.about {
+  height: 250px;
+}
+
+.about h2 {
+  margin-top: 30px;
 }
 
 .show0,
