@@ -54,3 +54,13 @@ body {
 .show2 {
   display: none;
 }
+
+.contacts {
+  background-image: url(../assets/backgrounds/c_image.jpg);
+  background-size: cover;
+}
+
+.contacts h3 {
+  position: relative;
+  top: 30px;
+}
