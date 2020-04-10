@@ -32,6 +32,7 @@ body {
 .services {
   background-image: url(../assets/backgrounds/s_image.jpg);
   height: 280px;
+  color: white;
 }
 
 .services h2 {
